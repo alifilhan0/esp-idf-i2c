@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
-  include("C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
-  include("C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
-  include("C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
+  include("C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
 
 endif()
 

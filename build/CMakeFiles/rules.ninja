@@ -3652,7 +3652,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_wiegand_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\zakir\.espressif\tools\cmake\3.30.2\bin\cmake.exe --regenerate-during-build -SC:\Users\zakir\OneDrive\Desktop\WRO-FUTURE-ENGINEERS-2025 -BC:\Users\zakir\OneDrive\Desktop\WRO-FUTURE-ENGINEERS-2025\build
+  command = C:\Users\zakir\.espressif\tools\cmake\3.30.2\bin\cmake.exe --regenerate-during-build -SC:\Users\zakir\OneDrive\Desktop\esp-idf-i2c -BC:\Users\zakir\OneDrive\Desktop\esp-idf-i2c\build
   description = Re-running CMake...
   generator = 1
 

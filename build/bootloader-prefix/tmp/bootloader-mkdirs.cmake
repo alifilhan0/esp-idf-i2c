@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/Users/zakir/esp/v5.5/esp-idf/components/bootloader/subproject"
   file(MAKE_DIRECTORY "C:/Users/zakir/esp/v5.5/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/bootloader"
-  "C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/bootloader-prefix"
-  "C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/bootloader-prefix/tmp"
-  "C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/bootloader-prefix/src"
-  "C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/bootloader"
+  "C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/bootloader-prefix"
+  "C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/bootloader-prefix/tmp"
+  "C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/bootloader-prefix/src"
+  "C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

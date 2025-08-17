@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/esp-idf-lib/components/hts221
+# Install script for directory: C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/esp-idf-lib/components/hts221
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

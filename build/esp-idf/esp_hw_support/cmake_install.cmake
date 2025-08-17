@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/esp-idf/esp_hw_support/port/esp32s3/cmake_install.cmake")
+  include("C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/esp-idf/esp_hw_support/port/esp32s3/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/esp-idf/esp_hw_support/mspi_timing_tuning/port/esp32s3/cmake_install.cmake")
+  include("C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/esp-idf/esp_hw_support/mspi_timing_tuning/port/esp32s3/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/zakir/OneDrive/Desktop/WRO-FUTURE-ENGINEERS-2025/build/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
+  include("C:/Users/zakir/OneDrive/Desktop/esp-idf-i2c/build/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
 endif()
 
